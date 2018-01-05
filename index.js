@@ -72,6 +72,7 @@ function endGame() {
 
 function moveDodger(e) {
   keydown = e.which
+  
   if (keydown === LEFT_ARROW) {
     moveDodgerLeft()
   }
