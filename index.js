@@ -87,7 +87,6 @@ function moveDodgerLeft() {
     window.requestAnimationFrame(moveDodgerLeft)
     }
   window.requestAnimationFrame(moveDodgerLeft)
-  }
 }
 
 
