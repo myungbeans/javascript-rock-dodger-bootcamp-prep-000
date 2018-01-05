@@ -80,7 +80,7 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  var left = positionToInteger(DODGER.style.left)
+  const left = positionToInteger(DODGER.style.left)
 
   function moveLeft(){
     if (left > 0){
