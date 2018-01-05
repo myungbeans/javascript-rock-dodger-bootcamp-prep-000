@@ -80,12 +80,12 @@ function moveDodger(e) {
 }
 
 function moveDodgerLeft() {
-  window.requestAnimationFrame(moveLeft(){
+  window.requestAnimationFrame(function(){
     const left = positionToInteger(DODGER.style.left)
 
     if (left > 0){
       DODGER.style.left = `${left - 4}px`
-      window.requestAnimationFrame(moveLeft())
+      window.requestAnimationFrame(function())
     }
   })
 }
